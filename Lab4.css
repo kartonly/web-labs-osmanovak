@@ -2,9 +2,44 @@ header{
     position: sticky;
     display: flex;
     width: auto;
-    height: 110px;
-    background-color: rgb(0, 82, 31);
+    height: 180px;
+    background: -moz-linear-gradient(left, rgb(255, 230, 0), rgb(247, 84, 206), rgb(78, 135, 242), rgb(86, 173, 129), rgb(31, 166, 255));
     margin: 0px;
     top:0px;
     left: 0px;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', ;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    background-attachment:fixed;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.pr{
+    margin-top: 10%;
+    height: auto;
+    background-color: white;
+    padding: 30px;
+
+}
+.mod{
+    color: white;
+    font-size: 400%;
+    font-weight: 800;
+    margin-left: 200px;
 }
