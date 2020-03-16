@@ -1,0 +1,102 @@
+header{
+    position: sticky;
+    display: flex;
+    width: auto;
+    height: 150px;
+    background: -moz-linear-gradient(left, rgb(255, 230, 0), rgb(247, 84, 206), rgb(78, 135, 242), rgb(86, 173, 129), rgb(31, 166, 255));
+    margin: 0px;
+    top:0px;
+    left: 0px;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', ;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    background-attachment:fixed;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.pr{
+    margin-top: 10%;
+    height: auto;
+    background-color: white;
+    padding: 30px;
+
+}
+.mod{
+    color: white;
+    font-size: 400%;
+    font-weight: 800;
+    margin-left: 200px;
+}
+.pic{
+    margin-top: 10%;
+    height: 400px;
+    background-color: white;
+    padding: 30px;
+}
+.pic2{
+    display: block;
+    float: right;
+    width: 400px;
+    height: 400px;
+    background-image: url(https://a.d-cd.net/296f3eu-960.jpg);
+}
+.pic3{
+    display: block;
+    float: right;
+    margin-right: 66px;
+    width: 400px;
+    height: 400px;
+    background-image: url(https://img02.rl0.ru/f99cbd550ca86e6b29c4af85f4fd239a/c615x400i/news.rambler.ru/img/2017/12/12154025.830186.8366.jpeg);
+}
+.pic4{
+    display: block;
+    width: 400px;
+    height: 400px;
+    background-image: url(https://artupper.com/sites/default/files/styles/gallery_image_big/public/obedience.jpg?itok=txXy-Ntl);
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 300%;
+    font-weight: 800;
+    margin-left: 100px;
+    margin-top: 5.7%;
+}
+.pr1{
+    margin-top: 10%;
+    height: 200px;
+    background-color: #75acfe;
+    padding: 0ch;
+    height: 200px;
+
+}
+.im{
+    height: 200px;
+    background-color: #75acfe;
+    padding: 0cm;
+    
+}
+.im1{
+    height: 200px;
+    width: 300px;
+    padding: 0cm;
+}
+.printer{
+    display: none;
+}
